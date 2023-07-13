@@ -4,7 +4,7 @@ services:
   web:
     build: .
     container_name: fastapi-app
-    volumes:
+    volumes: #컨테이너에 디스크 추가
       - .:/code
     ports:
       - "80:80"
