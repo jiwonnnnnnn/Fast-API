@@ -1,2 +1,2 @@
 fastapi
-uvicorn
+uvicorn #테스트용, 실제 배포 시 필요 
